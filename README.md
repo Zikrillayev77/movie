@@ -1,16 +1,38 @@
-# React + Vite
+<h1 align="center">🎬 Movie Search</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<p align="center"><img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite"> <img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" alt="Axios"></p>
 
-Currently, two official plugins are available:
+<p align="center"><a href="https://www.omdbapi.com/">OMDb API</a> orqali istalgan filmni qidirish ilovasi.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Imkoniyatlar
 
-## React Compiler
+- 🔎 Film nomini yozgan zahoti qidirish (debounce bilan — har harfda so'rov yuborilmaydi)
+- 🪟 Film haqida batafsil ma'lumot oynasi (modal)
+- ❤️ Sevimli filmlar — `localStorage` da saqlanadi
+- ✨ Yuklanish skeleti (shimmer) va silliq animatsiyalar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Texnologiyalar
 
-## Expanding the Oxlint configuration
+React, Vite, Axios, OMDb API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 Ishga tushirish
+
+```bash
+git clone https://github.com/Zikrillayev77/movie.git
+cd movie
+npm install
+npm run dev
+```
+
+Brauzerda `http://localhost:5173` manzilini oching.
+
+Production uchun build:
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+👤 **Muallif:** [Abdulloh Zikrillayev](https://github.com/Zikrillayev77)
